@@ -1,0 +1,29 @@
+<div>
+  <div class="container" style="margin: 20px auto;">
+    <div class="navbar navbar-expand-sm navbar-light navbar-design">
+      <%= link_to root_path, class: "navbar-brand" do %>
+        <%= image_tag "cafe.jpg" %>
+        <b>pedro</b> miranda
+      <% end %>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">notes</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">portfolio</a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="https://drive.google.com/file/d/1ecmdobRoJsUMyrngzHf8vEoxHYhoV2QL/view?usp=sharing" target="blank">full stack dev</a>
+                <a class="dropdown-item" href="#">data analysis</a>
+              </div>
+          </li>
+          <li class="nav-item">
+            <%= link_to "about me", about_me_path, class: "nav-link" %>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+

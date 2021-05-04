@@ -1,0 +1,82 @@
+.my-container {
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.my-container h1 {
+  font-size: 50px;
+  font-weight:600;
+}
+
+.my-container h3 {
+  font-size: 16px;
+  color: gray;
+}
+
+.my-container p {
+  font-size: 16px;
+  color: gray;
+}
+
+.my-container a {
+  font-size: 16px;
+  color: black;
+}
+
+.topics {
+  display: flex;
+  display: inline;
+}
+
+.list {
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.list a {
+  display: inline-block;
+  padding: 0px 4px;
+  padding-top: 16px;
+  vertical-align: middle;
+  color: black;
+}
+
+.list h2 {
+  display: inline-block;
+  padding-top: 16px;
+  vertical-align: middle;
+}
+
+
+.arrow {
+  display: inline-block;
+  padding: 0px 4px;
+  padding-top: 8px;
+  vertical-align: middle;
+  color: #52A847;
+}
+
+
+.list a:hover {
+  color: gray;
+}
+
+.text-cover {
+  text-align: justify;
+}
+
+.skills {
+  display: inline-block;
+  font-size: 14px;
+  /*margin: 16px 0 8px 8px;*/
+  padding: 8px 16px;
+  border: 1px solid #52A847;
+  color: black;
+  border-radius: 50px;
+  box-sizing: border-box;
+}
